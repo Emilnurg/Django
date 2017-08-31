@@ -1,0 +1,19 @@
+{% extends "learning_logs/base.html" %}
+
+
+{% block header %}
+    <div class='jumbotron'>
+        <h1>Пишите обо всем</h1>
+    </div>
+{% endblock header %}
+
+{% block content %}
+    <h2>
+        <a href="{% url 'users:register' %}">Зарегистрируйте</a> свой журнал,
+        и добавьте интересные вам темы.
+    </h2>
+    <h2>
+        Адаптивный дизайн и облачные технологии позволят вам добавлять, смотреть и изменять
+        информацию с любого устройства, где бы вы ни были.
+    </h2>
+{% endblock content %}
