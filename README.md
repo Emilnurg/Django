@@ -1,5 +1,5 @@
 # Django
-Online notepad
+Online notepad in virtualenv with django-bootstrap3, ready for deploy at Heroku(gitignore, requirements etc.)
 
 [Домашняя страница](https://github.com/Emilnurg/Django/blob/master/Screenshots/home.png)
 ![Регистрация](https://github.com/Emilnurg/Django/blob/master/Screenshots/registration.png)
